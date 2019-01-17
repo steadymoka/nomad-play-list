@@ -32,9 +32,11 @@ module.exports = {
     baseURL: AXIOS_BASEURL,
   },
   build: {
-    publicPath: "https://moka.land/nomad-play-list/_nuxt/",
-
     extend (config, { isDev, isClient }) {
+      if (!isDev) {
+        config.output.publicPath = "./_nuxt/";
+      }
+
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
