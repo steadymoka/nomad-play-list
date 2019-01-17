@@ -77,6 +77,7 @@
         }
       },
       goLink(url) {
+        console.log("called!!");
         window.open(url, '_blank');
       }
     },
