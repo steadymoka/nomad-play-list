@@ -36,6 +36,8 @@ module.exports = {
     baseURL: AXIOS_BASEURL,
   },
   build: {
+    publicPath: 'https://cdn.nuxtjs.org',
+    
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
