@@ -32,7 +32,7 @@ module.exports = {
     baseURL: AXIOS_BASEURL,
   },
   build: {
-    publicPath: "/nomad-play-list/nomad-play-list/_nuxt/",
+    // publicPath: "/nomad-play-list/_nuxt/",
 
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
