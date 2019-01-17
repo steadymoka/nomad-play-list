@@ -4,11 +4,6 @@
 $container_width: 712px;
 $gutter: 40px;
 
-$white: #ffffff;
-$blue: #7151f4;
-$cyan: #a4d6ef;
-$gray: #9b9b9b;
-
 html {
   font-family: "GODO DEMO", sans-serif;
   font-weight: 400;
@@ -28,51 +23,12 @@ html {
   font-family: "Campton Bold DEMO", "Spoqa Han Sans", sans-serif;
 }
 
-.button {
-  vertical-align: top;
-  box-sizing: border-box;
-  display: inline-block;
-  border-radius: .375rem;
-  padding: .375rem .5rem .4375rem;
-  display: inline-block;
-  color: $white;
-  background-color: #5c3cdf;
-  text-decoration: none;
-  line-height: 1;
-  cursor: pointer;
-
-  [class^="ico-"] {
-    vertical-align: top;
-  }
-
-  .label {
-    display: inline-block;
-    margin-left: .5rem;
-    vertical-align: top;
-    font-size: .875rem;
-    line-height: 1.125rem;
-  }
-
-  @include media-md() {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-
-.button.en {
-  padding: .625rem .5rem .5rem;
-
-  @include media-md() {
-    padding-left: .75rem;
-    padding-right: .9375rem;
-  }
-}
-
 .app {
   @include media-md() {
     width: 100vw;
     height: 100vh;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
 }
 
