@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'GODO DEMO';
+    font-style: normal;
+    font-weight: 600;
+    src: local('GODO DEMO'),
+         local('GODO'),
+         url(./GodoB.otf) format('otf');
+  }
+  

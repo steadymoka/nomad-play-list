@@ -24,6 +24,7 @@ module.exports = {
   },
   css: [
     "~/assets/fonts/campton/campton.css",
+    "~/assets/fonts/godo/godo.css",
     "~/assets/scss/home.scss",
   ],
   loading: { color: '#3B8070' },

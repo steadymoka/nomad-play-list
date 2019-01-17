@@ -1,38 +1,44 @@
 {
-  "list": [{
-      "name": "바삭",
-      "tags": ["음식점"],
-      "place_tag": "서귀포",
-      "address": "제주특별자치도 서귀포시 김정문화로 5",
-      "address_url": "http://naver.me/FUAJBC4q",
-      "etc": "그냥 저녕한 돈까스집",
-      "parking": "자리가 많이 없어, 뒤쪽에 주차"
-    },
-    {
-      "name": "스타벅스 서귀포점",
-      "tags": ["카페", "작업하기 좋음"],
-      "place_tag": "서귀포",
-      "address": "제주특별자치도 서귀포시 중정로 53 서귀포수협",
-      "address_url": "http://naver.me/5DPAErr6",
-      "etc": "2층 따뜻하고, 콘센트, 뷰, 와이파이 다 잘됨",
-      "parking": "주차 가능"
-    },
+  "list": [
     {
       "name": "지금 이 순간",
-      "tags": ["카페", "작업하기 좋음"],
+      "tags": ["카페", "작업하기_좋음"],
       "place_tag": "애월",
       "address": "제주특별자치도 제주시 애월읍 애월로 15-1",
       "address_url": "http://naver.me/FRVeO3lq",
       "etc": "콘센트 조금 불편, 1층은 괜찮은듯, 뷰가 정말 좋음!!",
-      "parking": "주차 가능"
+      "parking": "주차 가능",
+      "image": "https://scontent-icn1-1.cdninstagram.com/vp/30309d24610b6087056aba44aa84d211/5CC2E4E4/t51.2885-15/e35/38220178_904946436364370_7116177990999867392_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com"
+    },
+    {
+      "name": "스타벅스 서귀포점",
+      "tags": ["카페", "작업하기_좋음, 뷰_좋음"],
+      "place_tag": "서귀포",
+      "address": "제주특별자치도 서귀포시 중정로 53 서귀포수협",
+      "address_url": "http://naver.me/5DPAErr6",
+      "etc": "2층 따뜻하고, 콘센트, 뷰, 와이파이 다 잘됨",
+      "parking": "주차 가능",
+      "image": "https://scontent-icn1-1.cdninstagram.com/vp/6fad5daf8780c5527f953d1902c75783/5CBA1E9F/t51.2885-15/e35/36523600_404797393361057_3058458121425911808_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com"
+    },
+    {
+      "name": "파라도토스",
+      "tags": ["카페", "뷰_좋음", "와인", "칵테일", "맥주"],
+      "place_tag": "협재",
+      "address": "제주 제주시 한림읍 금능길 87",
+      "address_url": "http://naver.me/5326mjUW",
+      "etc": "바로 앞에 바다가 보여서 뷰가 제일 좋은 것 같다. ",
+      "parking": "맞은편에 주차 그냥 했음 ..",
+      "image": "https://scontent-icn1-1.cdninstagram.com/vp/069bb52a3287d4184bdddc085638a1f8/5CD255C1/t51.2885-15/e35/39385505_1872942339440707_5957322130080137216_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com"
     },
     {
       "name": "",
-      "tags": [""],
+      "tags": [],
       "place_tag": "",
       "address": "",
       "address_url": "",
-      "etc": ""
+      "etc": "",
+      "parking": "",
+      "image": ""
     }
 
   ]
