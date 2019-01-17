@@ -10,13 +10,13 @@
         </div>
 
         <div class="menu">
-          <div class="item" v-on:click="onClickMenu(0)">
+          <div class="item" @click="onClickMenu(0)">
             <span class="active">제주</span>
           </div>
-          <div class="item" v-on:click="onClickMenu(1)">
+          <div class="item" @click="onClickMenu(1)">
             발리
           </div>
-          <div class="item" v-on:click="onClickMenu(2)">
+          <div class="item" @click="onClickMenu(2)">
             치앙마이
           </div>
         </div>
@@ -32,10 +32,10 @@
 
         <div class="info">
           <div class="name">
-            <span class="instalink" v-on:click="goLink(play.link)">{{ play.name }}</span>
+            <span class="instalink" @click="goLink(play.link)">{{ play.name }}</span>
           </div>
           <div class="address">
-            <a class="link" v-on:click="goLink(play.address_url)" target="_blank">{{ play.address }}</a>
+            <a class="link" @click="goLink(play.address_url)" target="_blank">{{ play.address }}</a>
           </div>
           <div class="temp">-</div>
           <div class="comment">
@@ -73,7 +73,7 @@
     methods: {
       onClickMenu(menu) {
         if (menu != 0) {
-          alert("준비 중입니다 :)")
+          alert("조만간 갈거에요!")
         }
       },
       goLink(url) {
