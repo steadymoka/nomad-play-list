@@ -32,7 +32,7 @@
 
         <div class="info">
           <div class="name">
-            {{ play.name }}
+            <a class="instalink" v-on:click="goLink(play.link)">{{ play.name }}</a>
           </div>
           <div class="address">
             <a class="link" v-on:click="goLink(play.address_url)" target="_blank">{{ play.address }}</a>
