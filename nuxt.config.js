@@ -25,6 +25,9 @@ module.exports = {
   ],
   loading: { color: '#3B8070' },
 
+  router: {
+    base: '/'
+  },
   modules: [
     '@nuxtjs/axios',
   ],
@@ -33,9 +36,9 @@ module.exports = {
   },
   build: {
     extend (config, { isDev, isClient }) {
-      // if (!isDev) {
+      if (!isDev) {
         config.output.publicPath = "./_nuxt/";
-      // }
+      }
 
       if (isDev && isClient) {
         config.module.rules.push({
@@ -48,6 +51,7 @@ module.exports = {
     }
   },
   generate: {
+    subFolders: true,
     minify: {
       collapseWhitespace: true,
       removeRedundantAttributes: false,
