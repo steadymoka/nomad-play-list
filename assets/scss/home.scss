@@ -2,7 +2,6 @@
 @import "./mixins";
 
 $container_width: 712px;
-$gutter: 40px;
 
 html {
   font-family: "GODO DEMO", sans-serif;
@@ -11,19 +10,13 @@ html {
   line-height: 1.6;
 }
 
-[class^="ico-"] {
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
 .en {
   font-family: "Campton Bold DEMO", "Spoqa Han Sans", sans-serif;
 }
 
 .app {
+  overflow-x: hidden;
+
   @include media-md() {
     width: 100vw;
     height: 100vh;
@@ -37,24 +30,42 @@ html {
   height: 180px;
 
   .container {
-    padding-top: 40px;
-    padding-right: 60px;
-    text-align: right;
+    padding-top: 56px;
+    padding-right: 10px;
+    text-align: center;
+
+    @include media-md() {
+      padding-top: 40px;
+      padding-right: 60px;
+      text-align: right;
+    }
   }
 
   .title {
     font-size: 30px;
     color: #575757;
+
+    @include media-sm() {
+      font-size: 24px;
+    }
   }
 
   .title-sub {
     font-size: 20px;
     color: #B3B3B3;
+
+    @include media-sm() {
+      font-size: 14px;
+    }
   }
 
   .menu {
     display: flex;
     margin-left: 50px;
+
+    @include media-sm() {
+      display: none;
+    }
 
     .item {
       padding-left: 16px;
@@ -88,19 +99,38 @@ html {
     margin-left: 100px;
     display: flex;
 
+    @include media-sm() {
+      height: 360px;
+      padding-top: 30px;
+      margin-left: 0px;
+      flex-direction: column;
+      -ms-flex-item-align: center;
+    }
+
     .image {
       width: 200px;
       height: 200px;
       overflow: hidden;
       border-radius: 8px;
       box-shadow: 2px 2px 20px 2px #9A9A9A;
+
+      @include media-sm() {
+        margin-left: 8vw;
+        width: 84vw;
+        height: 200px;
+      }
     }
 
     .info {
       display: flex;
       flex-direction: column;
       padding-left: 30px;
-     
+
+      @include media-sm() {
+        text-align: center;
+        padding-left: 0px;
+      }
+
       .name {
         font-size: 24px;
         padding-top: 4px;
@@ -110,22 +140,32 @@ html {
           cursor: pointer;
         }
       }
+
       .address {
         font-size: 14px;
         color: #7C7C7C;
       }
+
       .link {
         border-bottom: 1px solid currentColor;
         cursor: pointer;
       }
+
       .temp {
         flex-grow: 1;
         color: #00000000;
       }
+
       .comment {
         font-size: 14px;
         color: #DA7A7A;
+
+        @include media-sm() {
+          margin-left: 4px;
+          margin-right: 4px;
+        }
       }
+
       .tags {
         font-size: 14px;
         color: #DA7A7A;
@@ -133,15 +173,4 @@ html {
 
     }
   }
-}
-
-.floating-enter-active,
-.floating-leave-active {
-  transition: transform 500ms, opacity 500ms;
-}
-
-.floating-enter,
-.floating-leave-to {
-  transform: translate(0, 100px);
-  opacity: 0;
 }
