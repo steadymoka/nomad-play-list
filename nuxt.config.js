@@ -25,9 +25,6 @@ module.exports = {
   ],
   loading: { color: '#3B8070' },
 
-  router: {
-    base: '/'
-  },
   modules: [
     '@nuxtjs/axios',
   ],
