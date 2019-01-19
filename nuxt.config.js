@@ -31,6 +31,10 @@ module.exports = {
   axios: {
     baseURL: AXIOS_BASEURL,
   },
+  
+  router: {
+    base: '/preview/'
+  },
   build: {
     extend (config, { isDev, isClient }) {
       if (!isDev) {
@@ -48,7 +52,6 @@ module.exports = {
     }
   },
   generate: {
-    subFolders: true,
     minify: {
       collapseWhitespace: true,
       removeRedundantAttributes: false,
