@@ -37,10 +37,6 @@ module.exports = {
   },
   build: {
     extend (config, { isDev, isClient }) {
-      if (!isDev) {
-        config.output.publicPath = "./_nuxt/";
-      }
-
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
