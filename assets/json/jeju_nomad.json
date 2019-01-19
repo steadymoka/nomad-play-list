@@ -24,7 +24,7 @@
     },
     {
       "name": "파라도토스",
-      "tags": ["카페", "뷰_좋음", "와인", "칵테일", "맥주"],
+      "tags": ["카페", "작업하기_좋음", "뷰_좋음", "와인", "칵테일", "맥주"],
       "place_tag": "협재",
       "address": "제주 제주시 한림읍 금능길 87",
       "address_url": "http://naver.me/5326mjUW",
@@ -32,6 +32,16 @@
       "parking": "맞은편에 주차 그냥 했음 ..",
       "image": "https://scontent-icn1-1.cdninstagram.com/vp/069bb52a3287d4184bdddc085638a1f8/5CD255C1/t51.2885-15/e35/39385505_1872942339440707_5957322130080137216_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com",
       "link": "https://www.instagram.com/jeju_paratodos/"
+    },
+    {
+      "name": "울트라 마린",
+      "tags": ["카페","뷰_좋음","작업하기_좋음"],
+      "place_tag": "월령리",
+      "address": "제주특별자치도 제주시 한경면 일주서로 4611",
+      "address_url": "http://naver.me/xiskLODD",
+      "etc": "바다 바로 앞에 있는데, 넓은 바다가 잘 보여서 좋음. 해질때 보면 엄청 좋을것 같은데, 못봐서 아쉽다 .. ",
+      "parking": "주자 잘됨",
+      "image": "https://scontent-icn1-1.cdninstagram.com/vp/ce631b0e6a5c7a7468d088fb4b20d442/5CDF9D8A/t51.2885-15/e35/43422333_306306079964650_1380017116053104630_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com"
     },
     {
       "name": "",
