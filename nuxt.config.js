@@ -33,7 +33,7 @@ module.exports = {
   },
   
   router: {
-    base: '/preview/'
+    base: '/nomad-play-list/'
   },
   build: {
     extend (config, { isDev, isClient }) {
