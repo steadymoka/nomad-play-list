@@ -173,4 +173,63 @@ html {
 
     }
   }
+
+  // 
+
+  .quiz-item {
+    width: 100vw;
+    height: 80px;
+    padding-top: 40px;
+    margin-left: 100px;
+    display: flex;
+
+    @include media-sm() {
+      height: 360px;
+      padding-top: 30px;
+      margin-left: 0px;
+      flex-direction: column;
+      -ms-flex-item-align: center;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 30px;
+
+      @include media-sm() {
+        text-align: center;
+        padding-left: 0px;
+      }
+
+      .rank {
+        font-size: 34px;
+        padding-right: 40px;
+        color: #DA7A7A;
+      }
+
+      .name {
+        width: 560px;
+        font-size: 50px;
+        padding-left: 20px;
+        color: #4E4E4E;
+
+        .instalink {
+          cursor: pointer;
+        }
+      }
+
+      .score {
+        font-size: 50px;
+        color: #7C7C7C;
+      }
+
+      .temp {
+        flex-grow: 1;
+        color: #00000000;
+      }
+
+    }
+  }
+
 }

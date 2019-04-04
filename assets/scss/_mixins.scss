@@ -28,7 +28,6 @@
   }
 }
 
-
 @mixin media-resolution($resolution) {
   @if $resolution == 1 {
     @content;
